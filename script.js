@@ -2,9 +2,9 @@ function insert_Row() {
     let table = document.getElementById("sampleTable");
 	let newRow = table.insertRow(0);
 	
-	let cell1 = newRow.insertCell(0);
-	cell1.innerHTMT = "New Cell1";
+	let Cell1 = newRow.insertCell(0);
+	Cell1.innerHTML = "New Cell1";
 	
-	let cell2 = newRow.insertCell(1);
-	cell2.innerHTMT = "New Cell2";
+	let Cell2 = newRow.insertCell(1);
+	Cell2.innerHTML = "New Cell2";
 }
