@@ -1,5 +1,5 @@
 function insert_Row() {
-    const table = document.getElementById("sampleTable");
+    let table = document.getElementById("sampleTable");
 	let newRow = table.insertRow(0);
 	
 	let cell1 = newRow.insertCell(0);
